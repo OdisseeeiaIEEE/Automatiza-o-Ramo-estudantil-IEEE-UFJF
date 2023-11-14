@@ -2,11 +2,11 @@
 Este repositório tem como objetivo armazenar a fim de auxiliar no desenvolvimento do projeto da automatização do ramo Estudantil IEEE UFJF. Visando a saude dos colaboradores 
 o projeto tem como princinpal ponto forte a comunicação WIFI entre membro e saidas do ramo.
 Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-2004s1, onde podemos 
- * Step N1 N2 N3 N4
- *    1  1  1  0  0
- *    2  0  1  0  1
- *    3  0  1  1  1
- *    4  1  0  1  0
+ * Step | N1| N2| N3| N4
+ *    1 |  1|  1|  0|  0
+ *    2 |  0|  1|  1|  0
+ *    3 |  0|  0|  1|  1
+ *    4 |  1|  0|  0|  1
 
 
 N1 = PRETO
@@ -15,8 +15,10 @@ N3 = VERMELHO
 N4 = AZUL
 
 Ligação das bobinas:
-A+/A-
-B+/B-
+A+ Preto | A- Verde
+B+ vermelho| B- Azul
+
+Para  aligação do projeto esta sendo utilizada a Ponte H para o controle do sentido do giro do motor. O código é utilizado vai se basear nas linguagens HTML e C+ e a comunicação vai ser feita através de comunicação de uma site criado pelos própios programados do IEEE. 
 
 Modelo de ponte H usado no projeto:
 L298N
