@@ -35,3 +35,6 @@ tsecps= (1/120) -> 8,333s
 Podemos determinar esse deley través da equação
 tspecs = 1/N*6 [s]
 
+Através de medições realizadas no dia 16 de Novembro de 2023 utilizando 480W, 127V encontramos 3.17A e e 9.08V 28,78W de consumo com o motor Ligado.
+foi obeservado o aumento  da temperatura na Ponte H
+
