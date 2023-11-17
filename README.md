@@ -35,6 +35,9 @@ tsecps= (1/120) -> 8,333s
 Podemos determinar esse deley través da equação
 tspecs = 1/N*6 [s]
 
+17HS16
 Através de medições realizadas no dia 16 de Novembro de 2023 utilizando 480W, 127V encontramos 3.17A e e 9.08V 28,78W de consumo com o motor Ligado.
 foi obeservado o aumento  da temperatura na Ponte H
+
+Já com o Motor EM 257, aplicamos uma tensão de 12V, que ao acionar o motor ela cai para 10,72V e entrega 1,40A. Mostrando uma rotação comtinua inteirssante mas com um comportamento estranho de temperatura. tanto na carcaça do motor quanto no dissipador de temperatura da Ponte H.
 
