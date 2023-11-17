@@ -9,14 +9,26 @@ Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-200
  *    4 |  1|  0|  0|  1
 
 
-N1 = PRETO
-N2 = VERDE
-N3 = VERMELHO
+N1 = PRETO 
+N2 = VERDE 
+N3 = VERMELHO 
 N4 = AZUL
 
-Ligação das bobinas:
+Ligação das bobinas motor 17HS17:
 A+ Preto | A- Verde
 B+ vermelho| B- Azul
+
+Ligação das bobinas motor EM-257:
+VERMELHO FLAT Preto | TERCEIRO FLAT  Verde
+SEGUNDO FLAT  vermelho| QUARTO FLAT- Azul
+
+Vale se ressaltar que á orientação è o Flat Vermelhor e a parti dele como o primeiro contar para a Esquerda. 
+Vermelhor 1 A+
+2 B+
+3 A-
+4 B-
+
+
 
 Para  aligação do projeto esta sendo utilizada a Ponte H para o controle do sentido do giro do motor. O código é utilizado vai se basear nas linguagens HTML e C+ e a comunicação vai ser feita através de comunicação de uma site criado pelos própios programados do IEEE. 
 
