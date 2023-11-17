@@ -14,7 +14,7 @@ N2 = VERDE
 N3 = VERMELHO 
 N4 = AZUL
 
-Ligação das bobinas motor 17HS17:
+Ligação das bobinas motor 17HS16:
 A+ Preto | A- Verde
 B+ vermelho| B- Azul
 
