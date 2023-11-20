@@ -14,14 +14,14 @@ Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-200
 
   Para a alteração de cada passo, a tabela é alterada pelo tempo determinado pelo Step, cada step tem 4 váriaveis que são os polos do motor de passo bifásico, logo a cada status obrigatóriamente enviáremos dois polos positivos no motor e dois neutros, onde devemos tomar cuidado para não energizarmos a mesma bobina. Para o reconhecimento da mesma foi encontrado primeiramente duas bobinas onde os polos estão em série, a partir dela definimos a sequência de acionamento nos baseando do Datasheat do 17hs16. Todo o projeto que envolve motores e tensôes de saída,a tensão operada é de 12 Volt's.
   
-|Saida Ponte H |Cores referencia |
+|Saida Ponte H |Cores referência |
 |-------------|------------|
 |N1 | PRETO |
 |N2 | VERDE |
 |N3 | VERMELHO| 
 |N4 | AZUL|
 
-|Ligação das bobinas motor 17HS16:|
+|Ligação das bobinas do motor 17HS16:|
 |---------------------------|
 |A+ Preto | A- Verde|
 |B+ vermelho| B- Azul|
@@ -34,7 +34,7 @@ Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-200
 |QUARTO FLAT| Azul|
 
 Vale ressaltar que á orientação é o Flat Vermelho. E a partir dele,o primeiro fio da bobina ser orientado para a Esquerda. 
-Vermelho 
+Vermelho:
 1 A+
 2 B+
 3 A-
@@ -45,9 +45,7 @@ Vermelho
 Modelo de ponte H usado no projeto:
 L298N
 
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
-
-Atraés da seguinte função calculamos o delay de passo:
+Através da seguinte função calculamos o delay de passo:
 
 200 stcps = 360 graus.
 1 rpm = 360/60s
@@ -55,7 +53,7 @@ Atraés da seguinte função calculamos o delay de passo:
 Fazendo uma regra de três para obter quantos passos por segundo:
 (400/60) * stecs/s = 0,15 ms
 
-20rpm -> 20*(360/60) = 60 stcps/s
+20rpm -> 20*(360/60) = 60 stcps/s (refazer)
 tsecps= (1/120) -> 8,333s
 
 Podemos determinar esse delay através da equação:
