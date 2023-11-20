@@ -35,10 +35,11 @@ Vermelhor 1 A+
 4 B-
 
 Para o desenvolvimento no motor EM-257, foram testando 3 tempos de passos e obesrvados os seguintes valores
-
-16 mS 1,57A 10,58V
-8  mS  1,40A 10,72V
-4 mS   1,16A 10,98V
+|Tempo em Mile Segundos| Corrente (A)| Tensão(V)|
+|------------|---------|----------|
+|16 mS | 1,57A |10,58V|
+|8  mS | 1,40A |10,72V|
+|4 mS  | 1,16A |10,98V|
 
 Para  aligação do projeto esta sendo utilizada a Ponte H para o controle do sentido do giro do motor. O código é utilizado vai se basear nas linguagens HTML e C+ e a comunicação vai ser feita através de comunicação de uma site criado pelos própios programados do IEEE. 
 
