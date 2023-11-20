@@ -2,7 +2,7 @@
 
   Este repositório tem como objetivo armazenar a fim de auxiliar no desenvolvimento do projeto da automatização do ramo Estudantil IEEE UFJF.
 Visando a saúde dos colaboradores o projeto tem como principal ponto forte a comunicação WIFI entre membro e saidas do ramo.
-Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-2004s1, abaixo podemos ver a sequencia de ligamento.
+Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-2004s1, abaixo podemos ver a sequência de ligamento.
 
 |Step | N1| N2| N3| N4|
 |-----|---|---|---|---|
