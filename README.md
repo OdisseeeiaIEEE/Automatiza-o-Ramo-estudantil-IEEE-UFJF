@@ -21,9 +21,10 @@ Ligação das bobinas motor 17HS16:
 A+ Preto | A- Verde
 B+ vermelho| B- Azul
 
-Ligação das bobinas motor EM-257:
-VERMELHO FLAT Preto | TERCEIRO FLAT  Verde
-SEGUNDO FLAT  vermelho| QUARTO FLAT- Azul
+|Ligação das bobinas motor EM-257:|
+|----------------------------------|
+|VERMELHO FLAT Preto   | TERCEIRO FLAT  Verde|
+|SEGUNDO FLAT  vermelho| QUARTO FLAT- Azul|
 
 Vale se ressaltar que á orientação è o Flat Vermelhor e a parti dele como o primeiro contar para a Esquerda. 
 Vermelhor 1 A+
