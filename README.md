@@ -1,8 +1,9 @@
 # Automatização-o-Ramo-estudantil-IEEE-UFJF
 
-  Este repositório tem como objetivo armazenar a fim de auxiliar no desenvolvimento do projeto da automatização do ramo Estudantil IEEE UFJF. Visando a saude dos colaboradores 
-o projeto tem como princinpal ponto forte a comunicação WIFI entre membro e saidas do ramo.
-Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-2004s1, onde podemos 
+  Este repositório tem como objetivo armazenar a fim de auxiliar no desenvolvimento do projeto da automatização do ramo Estudantil IEEE UFJF.
+Visando a saúde dos colaboradores o projeto tem como principal ponto forte a comunicação WIFI entre membro e saidas do ramo.
+Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-2004s1, abaixo podemos ver a sequencia de ligamento.
+
 |Step | N1| N2| N3| N4|
 |-----|---|---|---|---|
 |   1 |  1|  1|  0|  0|
@@ -11,7 +12,8 @@ Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-200
 |   4 |  1|  0|  0|  1|
 
 
-  Para a alteração de cada passo, a tabela é alteralda de pelo tempo determinado pelo Step, cada step tem 4 váriaveis que são os polos do motor de passo bifásico, logo a cada estatus obrigatóriamente enviáremos dois pulos positivos no motor e dois neutros, onde temos que tomar muito cuidado para não energizamos a mesma bobina. Para o reconhecimento da mesma foi econtrato primeiramente duas bobinas onde os polos estão em série. a partir dela definimos a sequencia de acionamento nos baseando do Datasheat do 17hs16. Todo o projeto que envolve motores e tenções de saida a Tensão operada é de 12 Volt's.
+  Para a alteração de cada passo, a tabela é alterada pelo tempo determinado pelo Step, cada step tem 4 váriaveis que são os polos do motor de passo bifásico, logo a cada status obrigatóriamente enviáremos dois polos positivos no motor e dois neutros, onde devemos tomar cuidado para não energizarmos a mesma bobina. Para o reconhecimento da mesma foi encontrado primeiramente duas bobinas onde os polos estão em série, a partir dela definimos a sequência de acionamento nos baseando do Datasheat do 17hs16. Todo o projeto que envolve motores e tensôes de saída,a tensão operada é de 12 Volt's.
+  
 |Saida Ponte H |Cores referencia |
 |-------------|------------|
 |N1 | PRETO |
@@ -27,46 +29,53 @@ Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-200
 |Bobinas motor EM-257| Cores na Ponte H|
 |---------------------------------|----------|
 |VERMELHO FLAT| Preto   | 
-|SEGUNDO FLAT | vermelho| 
+|SEGUNDO FLAT | Vermelho| 
 |TERCEIRO FLAT | Verde|
 |QUARTO FLAT| Azul|
 
-Vale se ressaltar que á orientação è o Flat Vermelhor e a parti dele como o primeiro contar para a Esquerda. 
-Vermelhor 1 A+
+Vale ressaltar que á orientação é o Flat Vermelho. E a partir dele,o primeiro fio da bobina ser orientado para a Esquerda. 
+Vermelho 
+1 A+
 2 B+
 3 A-
 4 B-
 
-Para o desenvolvimento no motor EM-257, foram testando 3 tempos de passos e obesrvados os seguintes valores
-|Tempo em Mile Segundos| Corrente (A)| Tensão(V)|
-|------------|---------|----------|
-|16 mS | 1,57A |10,58V|
-|8  mS | 1,40A |10,72V|
-|4 mS  | 1,16A |10,98V|
-
-  Para  aligação do projeto esta sendo utilizada a Ponte H para o controle do sentido do giro do motor. O código é utilizado vai se basear nas linguagens HTML e C+ e a comunicação vai ser feita através de comunicação de uma site criado pelos própios programados do IEEE. 
+  Para  a ligação do projeto está sendo utilizada a Ponte H para o controle do sentido do giro do motor. O código utilizado basea-se nas linguagens HTML e C+ e a comunicação vai ser feita através de comunicação de uma site criado pelos próprios programadores do IEEE. 
 
 Modelo de ponte H usado no projeto:
 L298N
 
 This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
+Atraés da seguinte função calculamos o delay de passo:
 
-Atraés da seguinte função calculamos o dlay de passo 
 200 stcps = 360 graus.
 1 rpm = 360/60s
-Fazendo uma regra de três para obter quantos passos por segundo
+
+Fazendo uma regra de três para obter quantos passos por segundo:
 (400/60) * stecs/s = 0,15 ms
 
 20rpm -> 20*(360/60) = 60 stcps/s
 tsecps= (1/120) -> 8,333s
 
-Podemos determinar esse deley través da equação
+Podemos determinar esse delay através da equação:
 tspecs = 1/N*6 [s]
 
 17HS16
-Através de medições realizadas no dia 16 de Novembro de 2023 utilizando 480W, 127V encontramos 3.17A e e 9.08V 28,78W de consumo com o motor Ligado.
-foi obeservado o aumento  da temperatura na Ponte H
 
-Já com o Motor EM 257, aplicamos uma tensão de 12V, que ao acionar o motor ela cai para 10,72V e entrega 1,40A. Mostrando uma rotação comtinua inteirssante mas com um comportamento estranho de aumento temperatura. tanto na carcaça do motor quanto no dissipador de temperatura da Ponte H.
+Através de medições realizadas no dia 16 de Novembro de 2023 utilizando 480W, 127V encontramos 3.17A e e 9.08V 28,78W de consumo com o motor ligado.
+foi observado o aumento  da temperatura na Ponte H
+
+Já com o Motor EM-257, aplicamos uma tensão de 12V, que ao acionar o motor ela cai para 10,72V e entrega 1,40A. 
+Mostrando uma rotação continua interresante mas com um comportamento anormal de aumento temperatura, tanto na carcaça do motor quanto no dissipador de temperatura da Ponte H.
+Para tentar reduzir a temperatura foi utilizado o método de desenvolvimento do motor; listado abaixo:
+
+Para o desenvolvimento no motor EM-257, foram testados 3 tempos de passos e observados os seguintes valores
+|Tempo em Mile Segundos| Corrente (A)| Tensão(V)|
+|------------|---------|----------|
+|16 mS | 1,57A |10,58V|
+|8  mS | 1,40A |10,72V|
+|4 mS  | 1,16A |10,98V|
+
+Onde foi notado que no desenvolvimento de passo 4mS foi obtido os melhores resultantes. 
 
