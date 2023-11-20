@@ -23,12 +23,12 @@ N4 = AZUL
 |A+ Preto | A- Verde|
 |B+ vermelho| B- Azul|
 
-|Bobinas motor EM-257|
-|---------------------------------|
-|VERMELHO FLAT Preto   | 
-|SEGUNDO FLAT  vermelho| 
-|TERCEIRO FLAT  Verde|
-|QUARTO FLAT- Azul|
+|Bobinas motor EM-257| Cores na Ponte H|
+|---------------------------------|----------|
+|VERMELHO FLAT| Preto   | 
+|SEGUNDO FLAT | vermelho| 
+|TERCEIRO FLAT | Verde|
+|QUARTO FLAT| Azul|
 
 Vale se ressaltar que á orientação è o Flat Vermelhor e a parti dele como o primeiro contar para a Esquerda. 
 Vermelhor 1 A+
