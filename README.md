@@ -23,7 +23,7 @@ N4 = AZUL
 |A+ Preto | A- Verde|
 |B+ vermelho| B- Azul|
 
-|Bobinas A|Bobinas B|
+Bpbinas motor EM-257|
 |--------------|-------------------|
 |VERMELHO FLAT Preto   | TERCEIRO FLAT  Verde|
 |SEGUNDO FLAT  vermelho| QUARTO FLAT- Azul|
