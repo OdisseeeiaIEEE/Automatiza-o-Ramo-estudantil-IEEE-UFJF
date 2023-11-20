@@ -12,11 +12,12 @@ Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-200
 
 
 Para a alteração de cada passo, a tabela é alteralda de pelo tempo determinado pelo Step, cada step tem 4 váriaveis que são os polos do motor de passo bifásico, logo a cada estatus obrigatóriamente enviáremos dois pulos positivos no motor e dois neutros, onde temos que tomar muito cuidado para não energizamos a mesma bobina. Para o reconhecimento da mesma foi econtrato primeiramente duas bobinas onde os polos estão em série. a partir dela definimos a sequencia de acionamento nos baseando do Datasheat do 17hs16. Todo o projeto que envolve motores e tenções de saida a Tensão operada é de 12 Volt's.
-
-N1 = PRETO 
-N2 = VERDE 
-N3 = VERMELHO 
-N4 = AZUL
+|Saida Ponte H |Cores referencia |
+|-------------|------------|
+|N1 | PRETO |
+|N2 | VERDE |
+|N3 | VERMELHO| 
+|N4 | AZUL|
 
 |Ligação das bobinas motor 17HS16:|
 |---------------------------|
