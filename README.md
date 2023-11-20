@@ -1,6 +1,6 @@
 # Automatização-o-Ramo-estudantil-IEEE-UFJF
 
-Este repositório tem como objetivo armazenar a fim de auxiliar no desenvolvimento do projeto da automatização do ramo Estudantil IEEE UFJF. Visando a saude dos colaboradores 
+  Este repositório tem como objetivo armazenar a fim de auxiliar no desenvolvimento do projeto da automatização do ramo Estudantil IEEE UFJF. Visando a saude dos colaboradores 
 o projeto tem como princinpal ponto forte a comunicação WIFI entre membro e saidas do ramo.
 Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-2004s1, onde podemos 
 |Step | N1| N2| N3| N4|
@@ -11,7 +11,7 @@ Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-200
 |   4 |  1|  0|  0|  1|
 
 
-Para a alteração de cada passo, a tabela é alteralda de pelo tempo determinado pelo Step, cada step tem 4 váriaveis que são os polos do motor de passo bifásico, logo a cada estatus obrigatóriamente enviáremos dois pulos positivos no motor e dois neutros, onde temos que tomar muito cuidado para não energizamos a mesma bobina. Para o reconhecimento da mesma foi econtrato primeiramente duas bobinas onde os polos estão em série. a partir dela definimos a sequencia de acionamento nos baseando do Datasheat do 17hs16. Todo o projeto que envolve motores e tenções de saida a Tensão operada é de 12 Volt's.
+  Para a alteração de cada passo, a tabela é alteralda de pelo tempo determinado pelo Step, cada step tem 4 váriaveis que são os polos do motor de passo bifásico, logo a cada estatus obrigatóriamente enviáremos dois pulos positivos no motor e dois neutros, onde temos que tomar muito cuidado para não energizamos a mesma bobina. Para o reconhecimento da mesma foi econtrato primeiramente duas bobinas onde os polos estão em série. a partir dela definimos a sequencia de acionamento nos baseando do Datasheat do 17hs16. Todo o projeto que envolve motores e tenções de saida a Tensão operada é de 12 Volt's.
 |Saida Ponte H |Cores referencia |
 |-------------|------------|
 |N1 | PRETO |
@@ -44,7 +44,7 @@ Para o desenvolvimento no motor EM-257, foram testando 3 tempos de passos e obes
 |8  mS | 1,40A |10,72V|
 |4 mS  | 1,16A |10,98V|
 
-Para  aligação do projeto esta sendo utilizada a Ponte H para o controle do sentido do giro do motor. O código é utilizado vai se basear nas linguagens HTML e C+ e a comunicação vai ser feita através de comunicação de uma site criado pelos própios programados do IEEE. 
+  Para  aligação do projeto esta sendo utilizada a Ponte H para o controle do sentido do giro do motor. O código é utilizado vai se basear nas linguagens HTML e C+ e a comunicação vai ser feita através de comunicação de uma site criado pelos própios programados do IEEE. 
 
 Modelo de ponte H usado no projeto:
 L298N
