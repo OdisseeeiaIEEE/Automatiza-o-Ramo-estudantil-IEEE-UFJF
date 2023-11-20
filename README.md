@@ -49,8 +49,7 @@ Para o desenvolvimento no motor EM-257, foram testando 3 tempos de passos e obes
 Modelo de ponte H usado no projeto:
 L298N
 
-$\sqrt{3x-1}+(1+x)^2$
-
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
 
 Atraés da seguinte função calculamos o dlay de passo 
