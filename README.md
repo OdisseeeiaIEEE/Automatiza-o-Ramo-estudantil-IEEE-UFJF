@@ -25,8 +25,10 @@ N4 = AZUL
 
 |Bobinas motor EM-257|
 |---------------------------------|
-|VERMELHO FLAT Preto   | TERCEIRO FLAT  Verde|
-|SEGUNDO FLAT  vermelho| QUARTO FLAT- Azul|
+|VERMELHO FLAT Preto   | 
+|SEGUNDO FLAT  vermelho| 
+|TERCEIRO FLAT  Verde|
+|QUARTO FLAT- Azul|
 
 Vale se ressaltar que á orientação è o Flat Vermelhor e a parti dele como o primeiro contar para a Esquerda. 
 Vermelhor 1 A+
