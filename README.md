@@ -40,12 +40,12 @@ Modelo de ponte H usado no projeto:
 L298N
 
 Atraés da seguinte função calculamos o dlay de passo 
-400 stcps = 360 graus.
+200 stcps = 360 graus.
 1 rpm = 360/60s
 Fazendo uma regra de três para obter quantos passos por segundo
 (400/60) * stecs/s = 0,15 ms
 
-20rpm -> 20*(360/60) = 120 stcps/s
+20rpm -> 20*(360/60) = 60 stcps/s
 tsecps= (1/120) -> 8,333s
 
 Podemos determinar esse deley través da equação
