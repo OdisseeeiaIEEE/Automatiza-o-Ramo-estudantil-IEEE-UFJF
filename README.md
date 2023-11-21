@@ -84,7 +84,8 @@ para o Desenvolvimento do Código vamos definir as varáveis
 |Tipo|Váriaveis|Status de inicio|Alocação|
 |----|---------|----------------|--------|
 |BOOL|FinDeLinha|0|Global|
-|
+_____________________________________________________________________________________
+A partir dos teste realizados pelo motor EM-257, partimos para a montagem da condicional onde usamos botões para o controle de sentido de giro de acordo com o angulo que nós temos padronizados. estipulamos um angulo de 180º de rotação que da 200' Passos 
 
 
 
