@@ -6,9 +6,9 @@ Após uma grande pesquisa, foi estudado sobre a utilização do motor 17hs16-200
 
 |Step | N1| N2| N3| N4|
 |-----|---|---|---|---|
-|   1 |  1|  1|  0|  0|
+|   1 |  1|  0|  1|  0|
 |   2 |  0|  1|  1|  0|
-|   3 |  0|  0|  1|  1|
+|   3 |  0|  1|  0|  1|
 |   4 |  1|  0|  0|  1|
 
 
@@ -53,7 +53,7 @@ Através da seguinte função calculamos o delay de passo:
 Fazendo uma regra de três para obter quantos passos por segundo:
 (400/60) * stecs/s = 0,15 ms
 
-20rpm -> 20*(360/60) = 60 stcps/s (refazer)
+ -> 20*(360/60) = 60 stcps/s (refazer)
 tsecps= (1/120) -> 8,333s
 
 Podemos determinar esse delay através da equação:
@@ -76,4 +76,15 @@ Para o desenvolvimento no motor EM-257, foram testados 3 tempos de passos e obse
 |4 mS  | 1,16A |10,98V|
 
 Onde foi notado que no desenvolvimento de passo 4mS foi obtido os melhores resultantes. 
+
+Para o Cochecimento de controle de acesso da porta, esta sendo discutindo a possibilidade de cadastro de IP armazenado em vetores do 
+
+para o Desenvolvimento do Código vamos definir as varáveis 
+
+|Tipo|Váriaveis|Status de inicio|Alocação|
+|----|---------|----------------|--------|
+|BOOL|FinDeLinha|0|Global|
+|
+
+
 
