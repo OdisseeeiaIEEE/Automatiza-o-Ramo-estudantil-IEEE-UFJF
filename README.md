@@ -81,9 +81,7 @@ Para o Cochecimento de controle de acesso da porta, esta sendo discutindo a poss
 
 para o Desenvolvimento do Código vamos definir as varáveis 
 
-|Tipo|Váriaveis|Status de inicio|Alocação|
-|----|---------|----------------|--------|
-|BOOL|FinDeLinha|0|Global|
+O sensor de refletância está funcionando pela saída de pull-up do ESP no pino D8, utilizando o fio de cor preta conectado no pino D8 e a alimentação do sensor é feita pelo fio marrom no +3V e o fio azul no GND.
 _____________________________________________________________________________________
 A partir dos teste realizados pelo motor EM-257, partimos para a montagem da condicional onde usamos botões para o controle de sentido de giro de acordo com o angulo que nós temos padronizados. estipulamos um angulo de 180º de rotação que da 200' Passos 
 
