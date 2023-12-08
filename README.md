@@ -84,6 +84,7 @@ para o Desenvolvimento do Código vamos definir as varáveis
 O sensor de refletância está funcionando pela saída de pull-up do ESP no pino D8, utilizando o fio de cor preta conectado no pino D8 e a alimentação do sensor é feita pelo fio marrom no +3V e o fio azul no GND.
 _____________________________________________________________________________________
 A partir dos teste realizados pelo motor EM-257, partimos para a montagem da condicional onde usamos botões para o controle de sentido de giro de acordo com o angulo que nós temos padronizados. estipulamos um angulo de 180º de rotação que da 200' Passos.
+_____________________________________________________________________________________
 
 Código. 
 Para o desenvolvimento do Código foi escolhiodo a utilização do microcontrolador ESP-8266. onde batemos de frente com as limitações das portas, é muito estranho se falar nisso quando podemos trabalhar com arduino Mega com o esp32 como shield, o projeto ta bem evuluido e pinagem atual é a seguinte. 
@@ -100,3 +101,12 @@ Para o desenvolvimento do Código foi escolhiodo a utilização do microcontrola
 |D6 |InterruptorPorta | |
 |D7 |LedVerde | |
 |D8 |LedSinal | |
+
+
+um coisa muito interessante é o trabalho com memória de dados, vamos usar o tipo de dado bool, que carregam o nome Peçastatus com oa primeira letra maiscula e Status com s minusculo. temos 3 variaveis bool. Temos que ter muita atenção onde mudar a status das variáveis. muito pica tambem é entender que estamos mudando as variáveis com o tipo true e false. muitatenção a esta parte, o erro pode acarretar na má interpretação do código.
+
+|Tipo de dados| Nome Variável| NIVEL(V)|
+|------------|---------|----------|
+|bool | Lampadastatus|LOW|
+|bool | Portastatus |LOW|
+
