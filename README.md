@@ -110,3 +110,7 @@ um coisa muito interessante é o trabalho com memória de dados, vamos usar o ti
 |bool | Lampadastatus|LOW|
 |bool | Portastatus |LOW|
 
+_____________________________________________________________________________________
+obeservação realizada no dia 8 de dezembro foi que o interruptor não funciona no código, possivelmente seja alguma questão dentro do código. Possivelmente seja a questão de estamos errando seja nos if's, pois ele não tem um else e talvez não tenha a condição da ação, é estranhos mas vai demandar tempode estudo
+
+
